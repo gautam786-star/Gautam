@@ -1,0 +1,339 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", serif;
+
+
+}
+
+header {
+  width: 100%;
+  height: 80px;
+  background: white;
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, .05);
+  display: flex;
+  align-items: center;
+
+}
+
+
+img {
+  width: 60px;
+  margin-right: 20px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 94%;
+  margin: 0 auto;
+}
+
+.nav-left,
+.nav-right {
+  display: flex;
+  align-items: centre;
+  justify-content: center;
+}
+
+.nav-left ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 15px;
+  font-weight: 500;
+  font-style: normal;
+  color: rgb(66, 60, 60);
+  font-size: 13px;
+}
+
+.search-bar {
+  background: red;
+  width: 300px;
+  line-height: 40px;
+  border-radius: 4px;
+  background: #f1eeee;
+
+}
+
+.search-bar input {
+  background: transparent;
+  border: 0;
+  outline: none;
+  width: 90%;
+  font-size: 12px;
+}
+
+.nav-right .serach-bar i {
+  font-size: 13px;
+  color: #727070;
+  margin-right: 20px;
+  margin-left: 15px;
+}
+
+.Studio {
+  position: relative;
+}
+
+.Studio span {
+  position: absolute;
+  bottom: 0;
+  color: rgb(238, 9, 47);
+  top: -5px;
+  left: 55px;
+  font-size: 11px;
+
+}
+
+
+.nav-right div {
+  margin: 0 12px;
+  text-align: center;
+
+}
+
+.nav-right div p {
+  font-size: 12px;
+  font-weight: 700;
+  color: rgb(44, 42, 42);
+}
+
+.nav-right div i {
+  font-size: 18px;
+  color: rgb(44, 42, 42);
+}
+
+.nav-left i {
+  font-size: 20px;
+  background-color: #f0cdcd;
+  padding: 10px;
+  border-radius: 50%;
+  display: none;
+}
+
+
+
+
+.nav-right div {
+  margin: 0 7px;
+}
+
+.nav-right div p {
+  font-size: 10px;
+
+
+}
+
+
+
+
+.box {
+  height: 100px;
+  width: 100%;
+  background-color: rgb(59, 55, 55);
+  padding: 30px;
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+
+
+.banner {
+  display: flex;
+}
+
+
+.banner img {
+  width: 50%;
+  height: 400px;
+
+
+}
+
+
+.banner2 {
+  display: flex;
+}
+
+.banner2 img {
+  width: 50%;
+  height: 400px;
+
+}
+
+
+.product-card1 {
+  padding: 20px;
+  text-align: center;
+
+
+
+}
+
+
+.product-card1 h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Arial, sans-serif;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.product-section {
+  padding: 20px;
+  text-align: center;
+}
+
+.product-section h2 {
+  font-size: 100px;
+  margin-bottom: 20px;
+
+}
+
+
+.product-section h3 {
+  font-size: 50px;
+  margin-bottom: 20px;
+
+}
+
+.product-section h4 {
+  font-size: 25px;
+  margin-bottom: 20px;
+
+}
+
+.image {
+  height: 100px;
+  width: auto;
+
+}
+
+.product-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  width: 200px;
+  margin: 10px;
+}
+
+.product-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+
+}
+
+.product-name {
+  font-size: 25px;
+  margin: 10px 0;
+}
+
+.product-price {
+  background-color: white;
+  color: black;
+  padding: 10px 0;
+  text-align: center;
+
+}
+
+/*.footer p{
+    font-size: 14px;
+    font-style: italic;
+
+}
+  
+  
+ 
+
+  /*media query*/
+
+@media only screen and (max-width:578px) {
+  .nav-menu {
+    display: none;
+  }
+
+  .nav-left i {
+
+    display: block;
+  }
+
+  img {
+    width: 45px;
+    margin-right: 10px;
+  }
+
+  header {
+    height: 60px;
+  }
+
+  .search-bar {
+    position: absolute;
+    top: 70px;
+    width: 100%;
+    left: 0;
+    border-radius: 50px;
+    background: white;
+    border: 1px solid grey;
+
+  }
+
+  .product-section h2 {
+    font-size: 50px !important;
+
+
+
+  }
+
+  .product-section h3 {
+    font-size: 25px;
+  }
+
+  .nav-right div {
+    margin: 0 7px;
+  }
+
+  .nav-right div p {
+    font-size: 10px;
+
+  }
+
+  .banner {
+    display: inline;
+
+  }
+
+  .banner img {
+    width: 100%;
+  }
+}
